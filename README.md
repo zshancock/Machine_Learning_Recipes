@@ -21,7 +21,7 @@ May need other libraries as needed, but nothing too surprising for anyone who wo
 
 This is a work in progress, but I intend to add the following at a minimum:
 
-- [ ] Data preprocessing quick tools
+- [X] Data preprocessing quick tools
 - [ ] Decision Tree Regression & Classification
 - [ ] Random Forest Regression & Classification
 - [ ] Logistic Regression

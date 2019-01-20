@@ -61,6 +61,7 @@ graph = graphviz.Source(dot_data)
 # Random Forest
 
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix
 
 # Initialize the random forest classifier (n_estimators is the 'number of trees')
 

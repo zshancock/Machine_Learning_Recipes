@@ -19,14 +19,9 @@ May need other libraries as needed, but nothing too surprising for anyone who wo
 
 ### Contents
 
-This is a work in progress, but I intend to add the following at a minimum:
+This is a work in progress, but so far it contains:
 
-- [X] Data preprocessing quick tools
-- [ ] Decision Tree Regression & Classification
-- [ ] Random Forest Regression & Classification
-- [ ] Logistic Regression
-- [ ] KNN (K-Nearest Neighbor)
-- [ ] SVM (Support Vector Machine)
-- [ ] Naive Bayes
-- [ ] PCA (Principal Component Analysis)
+- **Data_preprocessing** (quick tools for manipulating data and formatting data)
+- **Classification** (Naive Bayes, Decision Trees, Random Forest)
+
 

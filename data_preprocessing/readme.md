@@ -1,6 +1,8 @@
 ## Data Preprocessing Tools
 ### Zac Hancock (zshancock@gmail.com)
 
+Note: Please note that these are meant to be referenced 'per block', I did not follow conventional 'PEP8' formatting with libraries/imports.
+
 ### Data Preprocessing Recipes included
 
 * Various handling methods for NAs

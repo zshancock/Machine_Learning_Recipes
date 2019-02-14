@@ -14,12 +14,14 @@ Contents:
 
 # Naive Bayes
 
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
 from sklearn.metrics import confusion_matrix
 
 # Initialize the naive bayes classifier
 
 nb_classifier = GaussianNB()
+# or
+# nb_classifier = MultinomialNB()
 nb_classifier.fit(X_train, y_train)
 
 # Make a prediction
@@ -29,6 +31,11 @@ y_pred = nb_classifier.predict(X_test)
 # Confusion Matrix
 
 conf_matrix = confusion_matrix(y_test, y_pred)
+
+# For more than one class, try...
+
+labels = [] # populate with labels (i.e. [0,1,2,3,4])
+conf_matrix = cm=confusion_matrix(y_test, y_pred, labels=labels)
 
 # Decision Tree (note: Preprocessing does not need scaling, since decision tree algorithms do not use Euclidean Distance)
 

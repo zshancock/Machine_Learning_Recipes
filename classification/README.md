@@ -3,15 +3,17 @@
 
 ### Classification Tasks
 
-* Naive Bayes
+* Naive Bayes (Gaussian, Multinomial)
 * Decision Trees
 * Random Forest
+
+* Confusion Matrix included for quick evaluataions. 
 
 ### Required libraries
 
 **Naive Bayes**
 ```
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
 from sklearn.metrics import confusion_matrix
 ```
 
@@ -33,4 +35,6 @@ from sklearn.metrics import confusion_matrix
 ### Additional Insight
 
 Visualizing decision trees is notoriously difficult with graphviz in Python. My recipe provides an **inline** plot with Juptyer notebook 
-and a **.pdf** render of the decision tree. 
+and a **.pdf** render of the decision tree. Example shown below.
+
+![alt text](https://github.com/zshancock/Machine_Learning_Recipes/blob/master/classification/graphics/decisiontreegraphic.JPG)

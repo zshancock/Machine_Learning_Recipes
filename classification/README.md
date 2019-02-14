@@ -1,7 +1,7 @@
 ## Classification Recipes
 ### Zac Hancock (zshancock@gmail.com)
 
-Note: Please note that these are meant to be referenced 'per block' meaning, I did not follow conventional 'PEP8' formatting with 
+Note: Please note that these are meant to be referenced 'per block', I did not follow conventional 'PEP8' formatting with 
 libraries/imports. 
 
 ### Classification Tasks

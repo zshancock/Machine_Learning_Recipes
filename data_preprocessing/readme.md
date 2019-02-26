@@ -10,6 +10,11 @@ Note: Please note that these are meant to be referenced 'per block', I did not f
 * splitting an X/Y matrix of data into Training and Testing data
 * Both *standard scaling* (mean=0) and *minmaxscaling* (0-1 scale) of features
 
+### Text Preprocessing
+
+* Vectorizer and common vectorizer settings
+* Converting a corpus into a vectorized dataframe
+
 ### Required libraries
 
 ```
@@ -20,6 +25,13 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import Imputer, LabelEncoder, OneHotEncoder, StandardScaler, MinMaxScaler
 ```
+
+Specific to the Text preprocessing recipes...
+
+```
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+```
+
 
 ### Additional Insight
 

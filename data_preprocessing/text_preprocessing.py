@@ -34,7 +34,7 @@ vectorizer = CountVectorizer(stop_words = 'english') # replace with above varian
  
 
 # fit transform does both steps in one, alternatively each can be called individually (.fit(), .transform())   
-vectorizer_results = vectorizer.fit_transform()
+vectorizer_results = vectorizer.fit_transform(input_corpus)
 columns = vectorizer_results.get_feature_names()
 vectorized_df = pd.DataFrame(vectorizer_results.toarray(), columns = columns)
 
